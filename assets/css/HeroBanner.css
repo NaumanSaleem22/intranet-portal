@@ -1,0 +1,188 @@
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.breadcrumb {
+  background: url("../../images/breadcrumb.jpg");
+  background-size: cover;
+  padding: 40px 0;
+}
+.breadcrumb h1 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin-left: 60px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+}
+.breadcrumb ul {
+  list-style: none;
+  display: flex;
+  margin: 5px 30px 0px;
+}
+.breadcrumb ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin: 0px 2px;
+  color: #fff;
+  font-weight: 300;
+  opacity: 0.4;
+}
+.breadcrumb ul li:last-child {
+  font-weight: 400;
+  opacity: 1;
+  color: #fff;
+}
+
+.hero-slider {
+  height: calc(100vh - 150px);
+  overflow: hidden;
+  position: relative;
+}
+.hero-slider .hero_banner__text {
+  position: absolute;
+  content: "";
+  top: 70%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.hero-slider .hero_banner__text h1 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.hero-slider .hero_banner__text h1 span {
+  display: block;
+}
+
+.heroCardFlex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.card-area {
+  position: absolute;
+  top: 200px;
+  right: 200px;
+  font-family: "Montserrat", sans-serif;
+  width: 350px;
+}
+.card-area .card {
+  margin-bottom: 10px;
+}
+.card-area .eventCard {
+  padding: 15px 12px;
+  line-height: 1;
+  border-radius: 12px;
+}
+.card-area .eventCard .eventDay .day {
+  font-size: 18px;
+  font-weight: 500;
+  color: #06675E;
+}
+.card-area .eventCard .eventDay .eventName {
+  font-size: 12px;
+  color: #06675E;
+  font-weight: 500;
+}
+.card-area .eventCard .eventDay .radioOption {
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+}
+.card-area .eventCard .eventDay .eventQuestion {
+  font-size: 20px;
+  color: #06675E;
+  font-weight: 500;
+  margin: 25px 0;
+  line-height: 1.2;
+}
+.card-area .eventCard .eventDay .btn-card-submit {
+  font-family: "Montserrat", sans-serif;
+  background-color: #06675E;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  border-color: transparent;
+  font-weight: bold;
+}
+.card-area .eventCard .eventTime {
+  float: right;
+}
+.card-area .eventCard .eventTime .date {
+  font-size: 24px;
+  font-weight: bold;
+  color: #148499;
+  display: block;
+}
+.card-area .eventCard .eventTime .time {
+  font-size: 58px;
+  color: #148499;
+  font-weight: bold;
+}
+.card-area .eventCard .eventTime .time sub {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slick-slider .slick-dots {
+  bottom: 130px !important;
+  left: 82px;
+  width: 300px;
+}
+.slick-slider .slick-dots li button {
+  height: 10px;
+  width: 10px;
+}
+.slick-slider .slick-dots li button::before {
+  height: 15px;
+  width: 15px;
+  content: "";
+  background-color: #fff;
+  border-radius: 50px;
+}
+.slick-slider .slick-next {
+  top: auto;
+  right: 85%;
+  z-index: 999;
+  bottom: 122px;
+}
+.slick-slider .slick-prev {
+  left: 170px;
+  z-index: 99;
+  top: auto;
+  bottom: 123px;
+}/*# sourceMappingURL=HeroBanner.css.map */

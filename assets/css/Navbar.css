@@ -1,0 +1,240 @@
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.navbar {
+  background-color: #148499;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+}
+@media (max-width: 768.99px) {
+  .navbar {
+    background-color: transparent;
+  }
+}
+.navbar .navIcon {
+  background-color: #02455C;
+  padding: 20px;
+}
+@media (max-width: 768.99px) {
+  .navbar .navIcon {
+    display: none;
+  }
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+  margin-right: 70px;
+}
+@media (max-width: 768.99px) {
+  .navbar ul {
+    margin-bottom: 40px;
+  }
+}
+.navbar ul li {
+  margin: 0 20px;
+}
+.navbar ul li:first-child {
+  margin: 0px 20px 0px 0px;
+}
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .navLink {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  margin: 0px 20px;
+}
+@media (max-width: 1600.99px) {
+  .navbar .navLink {
+    margin: 0 8px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1440.99px) {
+  .navbar .navLink {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1366.99px) {
+  .navbar .navLink {
+    margin: 0 3px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 1280.99px) {
+  .navbar .navLink {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768.99px) {
+  .navbar .navLink {
+    font-size: 20px;
+    border-bottom: 1px solid;
+    color: #06675E;
+    padding-left: 20px;
+  }
+  .navbar .navLink:last-child {
+    border-bottom: 0;
+  }
+}
+.navbar .search-icon {
+  color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 768.99px) {
+  .navbar .search-icon {
+    color: #046961;
+    font-size: 28px;
+  }
+}
+@media (max-width: 620.99px) {
+  .navbar .search-icon {
+    display: none;
+  }
+}
+@media (max-width: 768.99px) {
+  .navbar .navbar-toggler {
+    position: absolute;
+    bottom: 0;
+    top: 75vh;
+    height: auto;
+    min-height: 50px;
+    background: #e9ecef;
+    border-radius: 60px;
+    right: 20px;
+  }
+}
+
+.navbar-nav {
+  padding: 10px;
+}
+
+.navSwitch {
+  display: none !important;
+}
+@media (max-width: 768.99px) {
+  .navSwitch {
+    position: relative;
+    display: inline-block;
+    margin: 5px 5px 0px;
+    border: 1px solid #06675E !important;
+  }
+  .navSwitch > span {
+    position: absolute;
+    top: 10px;
+    pointer-events: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    width: 50%;
+    text-align: center;
+  }
+  .navSwitch > span.on {
+    left: 0;
+    padding-left: 2px;
+    color: #06675E !important;
+    font-weight: 500;
+  }
+  .navSwitch > span.off {
+    right: 0;
+    padding-right: 4px;
+    color: #06675E !important;
+    font-weight: 300;
+  }
+}
+.navSwitch input.check-toggle-round-flat:checked ~ .off {
+  color: #fff;
+}
+.navSwitch input.check-toggle-round-flat:checked ~ .on {
+  color: #fff;
+}
+.navSwitch input.check-toggle-round-flat:checked + label:after {
+  margin-left: 44px;
+}
+.navSwitch input.check-toggle-round-flat + label {
+  padding: 2px;
+  width: 92px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 0px;
+}
+.navSwitch input.check-toggle-round-flat + label:before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: transparent;
+  border-radius: 60px;
+}
+.navSwitch input.check-toggle-round-flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 48px;
+  background-color: rgba(15, 81, 50, 0.2117647059) !important;
+  border-radius: 0;
+  transition: margin 0.2s;
+  height: 100%;
+  transform: translate(0%, -50%);
+}
+.navSwitch .check-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.navSwitch .check-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}/*# sourceMappingURL=Navbar.css.map */

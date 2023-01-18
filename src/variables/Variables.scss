@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import '../styles/abstract/typography';
+@import '../styles/abstract/mixins';
+
+
+$primaryColor:#06675E;
+$secondaryColor:#148499;
+$tertiaryColor:#739FB0;
+$text-primary:#046961;
+$text-secondary:#148499;
+$text-gray:#707070;
+$text-white:#fff;
+$background-gray:#E1E8EB;
+$background-white:#fff;
+$body-background:#E2F0F0;
+$breadCrumbBg: #9BB7C4;
+// HEADING FONT 
+
+
+$primaryFont: 'Roboto', sans-serif;
+$fontMonst: 'Montserrat', sans-serif;
+
+
+
+// Extra Varibles 
+
+$barsColor: #6CB2B3;
+$primaryColorDark:#05574E;
+// Font sizes
+
+
+
+
+
+// This is Explaination 
+
+
+$breakpoint-desktop: 1600.99px;
+$breakpoint-mindesktop: 1440.99px;
+$breakpoint-laptop: 1366.99px;
+$breakpoint-miniLaptop: 1280.99px;
+$breakpoint-largetab: 1024.99px;
+$breakpoint-mintab: 768.99px;
+$breakpoint-mobile: 620.99px;
+
+$breakpoint-minMobile: 414.99px;
+$breakpoint-microMobile: 375.99px;
+
+
+
+
+ 

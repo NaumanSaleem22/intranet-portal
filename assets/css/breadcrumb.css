@@ -1,0 +1,105 @@
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 38px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 27px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.c-container {
+  width: 1650px;
+  margin: 0 auto;
+}
+@media (max-width: 1600.99px) {
+  .c-container {
+    width: 1320px;
+  }
+}
+@media (max-width: 1440.99px) {
+  .c-container {
+    width: 1140px;
+  }
+}
+@media (max-width: 1024.99px) {
+  .c-container {
+    width: 960px;
+  }
+}
+@media (max-width: 768.99px) {
+  .c-container {
+    width: 720px;
+  }
+}
+@media (max-width: 620.99px) {
+  .c-container {
+    width: 540px;
+  }
+}
+@media (max-width: 414.99px) {
+  .c-container {
+    width: 100%;
+    margin: 0 20px;
+  }
+}
+
+.breadcrumb {
+  background: url("../../images/breadcrumb-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+.breadcrumb h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: #fff;
+  margin-left: 0px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+}
+.breadcrumb ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb ul li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin: 0px 2px;
+  color: #9BB7C4;
+  font-weight: 600;
+}
+.breadcrumb ul li:last-child {
+  opacity: 1;
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=breadcrumb.css.map */
